@@ -23,6 +23,14 @@ body {
   height: 100vh;
 }
 
+.mobile-menu {
+  background: none;
+  border: none;
+}
+.mobile-menu .icon {
+  fill: white;
+}
+
 .wrapper {
   min-width: 320px;
   max-width: 1200px;
@@ -40,15 +48,6 @@ body {
 
 .nav-items {
   display: none;
-}
-
-.mobile-menu {
-  cursor: pointer;
-  border: none;
-}
-.mobile-menu .icon {
-  fill: red;
-  color: red;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

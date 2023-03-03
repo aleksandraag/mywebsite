@@ -23,6 +23,16 @@ body {
   height: 100vh;
 }
 
+
+.mobile-menu {
+ background: none;
+ border: none;
+  .icon {
+  fill: white;
+}
+}
+
+
 .wrapper {
   min-width: 320px;
   max-width: 1200px;
@@ -40,19 +50,12 @@ body {
   background-color: #f12cf5;
 }
 
-.nav-items {
+  .nav-items {
   display: none;
 }
 
-.mobile-menu {
-  cursor: pointer;
-  border: none;
-   .icon {
-  fill: red;
-  color: red;
-}
 
-}
+
 
 
 
