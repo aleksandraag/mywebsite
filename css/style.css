@@ -42,9 +42,13 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  cursor: pointer;
+  border: none;
+}
 .mobile-menu .icon {
-  color: red;
   fill: red;
+  color: red;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

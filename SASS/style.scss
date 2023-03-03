@@ -44,50 +44,20 @@ body {
   display: none;
 }
 
-
 .mobile-menu {
-.icon {
-  color: red;
+  cursor: pointer;
+  border: none;
+   .icon {
   fill: red;
+  color: red;
 }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 @media (min-width: 768px) and (max-width: 1199px) {
-
-   .nav-items {
+  .nav-items {
     display: block;
     max-width: 1200px;
     align-items: center;
@@ -95,10 +65,6 @@ body {
 
     .nav-items a {
       color: white;
-
     }
   }
-
-  }
-
-
+}
